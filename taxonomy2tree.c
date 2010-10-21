@@ -892,7 +892,7 @@ int main (int argc, const char * argv[])
 		}
 	}
 	
-	fprintf (stderr, "Read %d unique taxIDs\n", avl_count (idTagAVL));
+	fprintf (stdout, "Read %d unique taxIDs\n", avl_count (idTagAVL));
 	
 	fclose  (inFile);	
 	
