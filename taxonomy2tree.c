@@ -91,7 +91,7 @@ void reportError (char * theMessage)
 
 void reportErrorLine (char * theMessage, long lineID)
 {
-	fprintf (stderr, "SKIPPED line %d: %s\n", lineID, theMessage);
+	fprintf (stdout, "SKIPPED line %d: %s\n", lineID, theMessage);
 }
 
 
